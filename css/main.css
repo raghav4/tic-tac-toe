@@ -1,0 +1,44 @@
+body{
+    background-color: #e74c3c;
+    font-family: 'Inconsolata', monospace;
+    overflow: hidden;
+}
+button {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    display: inline-block;
+    margin: 13px;
+    font-size: 25px;
+    font-weight: bold;
+    float: left; /* THIS WENT WRONG EARLIER*/
+    border: 0;
+    border-width: 0;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Work Sans', sans-serif;
+    /* font-family: 'Nunito', sans-serif; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#container{
+    top: 5px;
+    left: 350px;
+    background-color: #c0392b;
+    align-content: center;
+    float: left;
+    margin: 200px;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.title{
+    color: white;
+    text-align: center;
+    top: 180px;
+    position: relative;
+    float: center;
+    text-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.ttt:focus{
+	outline: 0; /* Disapperaing*/
+}
