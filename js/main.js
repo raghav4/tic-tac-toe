@@ -1,6 +1,7 @@
 let arr = [];
 let ctr = 0;
 let isXorZero = true;
+let cWin = false;
 function reply_click(click_id){
     let val = document.getElementById(click_id);
     if(val.innerText.length==0){
@@ -13,9 +14,10 @@ function reply_click(click_id){
     console.log(click_id);
     if(checkWin(val.innerText)){
         alert(val.innerText + " Wins! 😀");
+        cWin = true;
         location.reload();
     }
-    if(ctr==9){
+    if(ctr==9 && cWin==false){
         alert("It's a Draw!");
         location.reload();
     }
